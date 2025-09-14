@@ -15,6 +15,4 @@ You can drag and drop tasks between columns (**To Do, In Progress, Done**) with 
 - **Vanilla JavaScript (Drag & Drop API, localStorage)**  
 
 ## 🚀 Live Demo
-👉 [View Demo on Vercel](https://your-vercel-link.vercel.app/)
-
-
+👉 [View Demo on Vercel](https://drag-drog-eight.vercel.app/)
