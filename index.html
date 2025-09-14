@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag Drog</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="board">
+        <h1>Simple Kanban Board</h1>
+        <div class="lists">
+            <!-- ============ List To Do ============ -->
+            <div class="list" id="to-do-list" data-status="new">
+                <h3>To Do</h3>
+                <!-- <div class="card" id="card1" draggable='true'>Buy Groceries</div>
+                <div class="card" id="card2">Wash Dishes</div>
+                <div class="card" id="card3">See My friend</div> -->
+            </div>   
+    
+            <!-- ============ List In Progress ============ -->
+            <div class="list" id="in-progress-list" data-status="progress">
+                <h3>In Progress</h3>
+                <!-- <div class="card" id="card4">learn Code</div> -->
+            </div>
+            <!-- ============ List Done ============ -->
+            <div class="list" id="done-list" data-status="done">
+                <h3>Done</h3>
+                <!-- <div class="card" id="card5">Play FootBall</div>
+                <div class="card" id="card6">Do Some Tasks</div> -->
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
